@@ -56,6 +56,7 @@ namespace DOTNET1_zad3
         public void RemoveDuplicates()
         {
             IEnumerable<Card> deck2 = Deck1.Distinct(); // Żeby to działało potrzebowałem IEquatable<Card> w klasie Card. Można usuwanie duplikatów zrobić łatwiej?
+            Console.WriteLine("Karty bez duplikatów:");
             foreach (Card card in deck2)
             {
                 Console.WriteLine(card.ToString());

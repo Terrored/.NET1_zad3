@@ -15,10 +15,11 @@ namespace DOTNET1_zad3
             Deck deck = new Deck();
 
             deck.WriteAllCards();
-
+            Console.WriteLine("**************************************************************");
             Console.WriteLine(deck.Compare2Cards(deck.Deck1[3],deck.Deck1[4]));
+            Console.WriteLine("**************************************************************");
             deck.FindMaxAndMin();
-
+            Console.WriteLine("**************************************************************");
             deck.WriteAllCards();
             Console.WriteLine("**************************************************************");
             deck.RemoveDuplicates();
